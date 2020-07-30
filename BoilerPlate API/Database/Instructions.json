@@ -1,0 +1,11 @@
+﻿/* 
+  Use the bellow command to scaffold the necessary models from the Postgres DB if using Databse-First approach
+  
+  1) Open the Package Manager Console (near Error List and Output option)
+  1b) If you don't see the PMC go to the upper toolbar View -> Other Windows -> Package  Manager Console
+  2) Type the command:
+  
+      Scaffold-DbContext "host=localhost;port=5432;database=MYDATABASE;user id=postgres;password=postgres" Npgsql.EntityFrameworkCore.PostgreSQL -Schemas public -OutputDir Database/Models -ContextDir Database -Context MyDbContext
+
+
+*/
